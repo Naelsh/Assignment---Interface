@@ -8,9 +8,9 @@ namespace Interface
 {
     class program2
     {
-        public void Go()
-        {
-            Console.WriteLine("nu kör vi program 2");
-        }
+        //public void Go()
+        //{
+        //    Console.WriteLine("nu kör vi program 2");
+        //}
     }
 }

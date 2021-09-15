@@ -6,7 +6,10 @@ namespace Interface
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            program1 program1 = new program1();
+            program2 program2 = new program2();
+            program1.run();
+            program2.Go();
         }
     }
 }

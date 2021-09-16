@@ -9,7 +9,9 @@
             //program1.run();
             //program2.Go();
             program1.start();
+            program1.Salvage();
             program2.start();
+
         }
     }
 }

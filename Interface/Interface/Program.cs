@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Interface
+﻿namespace Interface
 {
     class Program
     {
@@ -10,6 +8,8 @@ namespace Interface
             program2 program2 = new program2();
             //program1.run();
             //program2.Go();
+            program1.start();
+            program2.start();
         }
     }
 }

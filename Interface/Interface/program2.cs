@@ -1,13 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Interface
 {
-    class program2
+    class program2 : IProgram
     {
+        public void start()
+        {
+            Console.WriteLine("nu kör vi program 2");
+        }
         //public void Go()
         //{
         //    Console.WriteLine("nu kör vi program 2");
